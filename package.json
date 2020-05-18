@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/thecodrr/codeblock.css/issues"
   },
+  "keywords": [
+    "prismjs",
+    "highlightjs",
+    "codeblock",
+    "css",
+    "code",
+    "code-style",
+    "presentation",
+    "html"
+  ],
   "homepage": "https://github.com/thecodrr/codeblock.css#readme"
 }
