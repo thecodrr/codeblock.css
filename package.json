@@ -1,6 +1,6 @@
 {
   "name": "codeblock.css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "263 bytes to make pretty code blocks using only CSS. Much like Prettier but without any highlighting.",
   "main": "codeblock.min.css",
   "scripts": {
