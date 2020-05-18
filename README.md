@@ -1,4 +1,8 @@
-<h1 align="center">code.css</h1>
+<p align="center">
+<img src="https://raw.githubusercontent.com/thecodrr/code.css/master/assets/preview1.png" width="700">
+</p>
+
+<h1 align="center"><code>code.css</code></h1>
 <h3 align="center">Make your code pretty again. Without all the bloat.</h3>
 
 ## Features:
@@ -13,29 +17,7 @@
 
 **😐 Simple:** `code.css` does not make you learn anything new. All you have to do is assign ids to HTML elements. That's it.
 
-**⚙️ So simple, even GitHub can handle it:**
-
-<div style="display: flex; flex-direction: column;background-color: #383a59; padding: 20px; ">
-   <div style="display: flex;
-      justify-content: space-between;">
-      <span style="font-family: monospace; color: #e3d2fa;">example 1</span>
-      <span style="font-family: monospace; font-size: 12px; color: #e3d2fa;">html</span>
-   </div>
-   <pre style="color: #bd93f9; background: transparent; padding:0px; margin-bottom: 0px; max-width: 100%; overflow-x: auto;">
-&lt;div id=&quot;code&quot;&gt;
-   &lt;div id=&quot;info&quot;&gt;
-      &lt;span id=&quot;title&quot;&gt;example 1&lt;/span&gt;
-      &lt;span id=&quot;lang&quot;&gt;javascript&lt;/span&gt;
-   &lt;/div&gt;
-   &lt;pre&gt;
-     &lt;!-- your code here --&gt;
-   &lt;/pre&gt;
-&lt;/div&gt;
-</pre>
-
-</div>
-
-> _theme: dracula_
+**⚙️ So simple, even GitHub can handle it (if it supported inline styles :D).**
 
 ## Installation:
 
@@ -59,13 +41,6 @@ The most simplest way of using `code.css` is:
 ```
 
 You will get something like this:
-
-<div style="display: flex; flex-direction: column;background-color: #383a59; padding: 20px; ">
-    <span style="font-family: monospace; font-size: 12px; color: #e3d2fa; align-self: flex-end;">html</span>
-   <pre style="color: #bd93f9; background: transparent; padding:0px; margin-bottom: 0px; max-width: 100%; overflow-x: auto;">
-&lt;!-- your code here --&gt;
-</pre>
-</div>
 
 ## Theming:
 
