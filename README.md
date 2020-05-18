@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center"><code>codeblock.css</code></h1>
-<h3 align="center">Make your code pretty again. Without all the bloat.</h3>
+<h3 align="center">Make your code blocks pretty again. Without all the bloat.</h3>
 
 ## Features:
 
