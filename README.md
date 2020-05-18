@@ -42,6 +42,8 @@ The most simplest way of using `codeblock.css` is:
 
 You will get something like this:
 
+<img src="https://raw.githubusercontent.com/thecodrr/codeblock.css/master/assets/preview2.png" width="700">
+
 ## Theming:
 
 By default, `codeblock.css` uses these variables for theming:
