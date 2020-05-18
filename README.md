@@ -40,9 +40,9 @@ The most simplest way of using `codeblock.css` is:
 
 ```html
 <div id="code">
-  <span id="lang">javascript</span>
+  <span id="lang">html</span>
   <pre>
-    <!-- your code here -->
+    &lt;!-- your code here --&gt;
   </pre>
 </div>
 ```
@@ -50,6 +50,32 @@ The most simplest way of using `codeblock.css` is:
 You will get something like this:
 
 <img src="https://raw.githubusercontent.com/thecodrr/codeblock.css/master/assets/preview2.png" width="700">
+
+If you'd like to add a title to the code block, you'll have to do this:
+
+```html
+<div id="code">
+  <div id="info">
+    <span id="title">example 1</span>
+    <span id="lang">html</span>
+  </div>
+  <pre>
+    &lt;div id=&quot;code&quot;&gt;
+      &lt;div id=&quot;info&quot;&gt;
+        &lt;span id=&quot;title&quot;&gt;example 1&lt;/span&gt;
+        &lt;span id=&quot;lang&quot;&gt;html&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;pre&gt;
+        &lt;!-- your code here --&gt;
+      &lt;/pre&gt;
+    &lt;/div&gt;
+  </pre>
+</div>
+```
+
+Which will look like this:
+
+<img src="https://raw.githubusercontent.com/thecodrr/codeblock.css/master/assets/preview1.png" width="700">
 
 ## Theming:
 
