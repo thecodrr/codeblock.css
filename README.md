@@ -4,6 +4,13 @@
 
 <h1 align="center"><code>codeblock.css</code></h1>
 <h3 align="center">Make your code blocks pretty again. Without all the bloat.</h3>
+<p align="center">
+  <a href="https://www.npmjs.com/package/codeblock.css"><img src="https://img.shields.io/npm/v/codeblock.css?style=for-the-badge"/></a>
+  <a href="https://www.npmjs.com/package/codeblock.css"><img src="https://img.shields.io/npm/dt/codeblock.css?style=for-the-badge"/></a>
+  <a href="https://www.npmjs.com/package/codeblock.css"><img src="https://img.shields.io/bundlephobia/minzip/codeblock.css?style=for-the-badge"/></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/thecodrr/codeblock.css?style=for-the-badge"/></a>
+</p>
+</p>
 
 ## Features:
 
