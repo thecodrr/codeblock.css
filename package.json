@@ -1,19 +1,19 @@
 {
-  "name": "code.css",
+  "name": "codeblock.css",
   "version": "1.0.0",
   "description": "400 bytes to make pretty code blocks using only CSS. Much like Prettier but without any highlighting.",
-  "main": "code.min.css",
+  "main": "codeblock.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thecodrr/code.css.git"
+    "url": "git+https://github.com/thecodrr/codeblock.css.git"
   },
   "author": "thecodrr <thecodrr@protonmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thecodrr/code.css/issues"
+    "url": "https://github.com/thecodrr/codeblock.css/issues"
   },
-  "homepage": "https://github.com/thecodrr/code.css#readme"
+  "homepage": "https://github.com/thecodrr/codeblock.css#readme"
 }

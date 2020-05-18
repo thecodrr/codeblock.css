@@ -1,21 +1,21 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/thecodrr/code.css/master/assets/preview1.png" width="700">
+<img src="https://raw.githubusercontent.com/thecodrr/codeblock.css/master/assets/preview1.png" width="700">
 </p>
 
-<h1 align="center"><code>code.css</code></h1>
+<h1 align="center"><code>codeblock.css</code></h1>
 <h3 align="center">Make your code pretty again. Without all the bloat.</h3>
 
 ## Features:
 
-**🕺 Extremely Lightweight:** `code.css` is only 400 bytes big. Yep, only 400.
+**🕺 Extremely Lightweight:** `codeblock.css` is only 400 bytes big. Yep, only 400.
 
-**🌐 Works Everywhere:** `code.css` uses nothing except pure-CSS that works everywhere on every browser.
+**🌐 Works Everywhere:** `codeblock.css` uses nothing except pure-CSS that works everywhere on every browser.
 
-**📱 Responsive:** `code.css` works even on mobiles and small screens.
+**📱 Responsive:** `codeblock.css` works even on mobiles and small screens.
 
 **🎨 Themeable:** Theme it however you want. Change the font, the background, the foreground, the title...anything.
 
-**😐 Simple:** `code.css` does not make you learn anything new. All you have to do is assign ids to HTML elements. That's it.
+**😐 Simple:** `codeblock.css` does not make you learn anything new. All you have to do is assign ids to HTML elements. That's it.
 
 **⚙️ So simple, even GitHub can handle it (if it supported inline styles :D).**
 
@@ -24,12 +24,12 @@
 Simply add this in your `<head>`:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/code.css" />
+<link rel="stylesheet" href="https://unpkg.com/codeblock.css" />
 ```
 
 ## Usage:
 
-The most simplest way of using `code.css` is:
+The most simplest way of using `codeblock.css` is:
 
 ```html
 <div id="code">
@@ -44,7 +44,7 @@ You will get something like this:
 
 ## Theming:
 
-By default, `code.css` uses these variables for theming:
+By default, `codeblock.css` uses these variables for theming:
 
 ```css
 --code-bg: #ededed;
@@ -61,7 +61,7 @@ There are also some themes in the `/themes` directory which you can directly lin
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/code.css/themes/<theme-name-here>.css"
+  href="https://unpkg.com/codeblock.css/themes/<theme-name-here>.css"
 />
 ```
 
