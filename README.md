@@ -39,8 +39,8 @@ Simply add this in your `<head>`:
 The most simplest way of using `codeblock.css` is:
 
 ```html
-<div id="code">
-  <span id="lang">html</span>
+<div class="code">
+  <span class="lang">html</span>
   <pre>
     &lt;!-- your code here --&gt;
   </pre>
@@ -54,16 +54,16 @@ You will get something like this:
 If you'd like to add a title to the code block, you'll have to do this:
 
 ```html
-<div id="code">
-  <div id="info">
-    <span id="title">example 1</span>
-    <span id="lang">html</span>
+<div class="code">
+  <div class="info">
+    <span class="title">example 1</span>
+    <span class="lang">html</span>
   </div>
   <pre>
-    &lt;div id=&quot;code&quot;&gt;
-      &lt;div id=&quot;info&quot;&gt;
-        &lt;span id=&quot;title&quot;&gt;example 1&lt;/span&gt;
-        &lt;span id=&quot;lang&quot;&gt;html&lt;/span&gt;
+    &lt;div class=&quot;code&quot;&gt;
+      &lt;div class=&quot;info&quot;&gt;
+        &lt;span class=&quot;title&quot;&gt;example 1&lt;/span&gt;
+        &lt;span class=&quot;lang&quot;&gt;html&lt;/span&gt;
       &lt;/div&gt;
       &lt;pre&gt;
         &lt;!-- your code here --&gt;

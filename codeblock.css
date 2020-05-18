@@ -5,28 +5,28 @@
   --code-lang-fg: #6b6b6b;
   --code-font: monospace;
 }
-#code {
+.code {
   display: flex;
   flex-direction: column;
   background-color: var(--code-bg);
   padding: 20px;
 }
-#code > * {
+.code > * {
   font-family: var(--code-font);
 }
-#code #info {
+.code .info {
   display: flex;
   justify-content: space-between;
 }
-#code #title {
+.code .title {
   color: var(--code-title-fg);
 }
-#code #lang {
+.code .lang {
   font-size: 12px;
   color: var(--code-lang-fg);
   align-self: flex-end;
 }
-#code pre {
+.code pre {
   color: var(--code-fg);
   max-width: 100%;
   overflow-x: auto;
