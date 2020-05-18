@@ -42,8 +42,9 @@ The most simplest way of using `codeblock.css` is:
 <div class="code">
   <span class="lang">html</span>
   <pre>
-    &lt;!-- your code here --&gt;
-  </pre>
+const validateNumber = n => !isNaN(parseFloat(n)) && isFinite(n) && Number(n) == n;
+validateNumber('10'); // true</pre
+  >
 </div>
 ```
 
@@ -56,20 +57,20 @@ If you'd like to add a title to the code block, you'll have to do this:
 ```html
 <div class="code">
   <div class="info">
-    <span class="title">example 1</span>
-    <span class="lang">html</span>
+    <span class="title">unfold</span>
+    <span class="lang">javascript</span>
   </div>
   <pre>
-    &lt;div class=&quot;code&quot;&gt;
-      &lt;div class=&quot;info&quot;&gt;
-        &lt;span class=&quot;title&quot;&gt;example 1&lt;/span&gt;
-        &lt;span class=&quot;lang&quot;&gt;html&lt;/span&gt;
-      &lt;/div&gt;
-      &lt;pre&gt;
-        &lt;!-- your code here --&gt;
-      &lt;/pre&gt;
-    &lt;/div&gt;
-  </pre>
+const unfold = (fn, seed) => {
+  let result = [],
+    val = [null, seed];
+  while ((val = fn(val[1]))) result.push(val[0]);
+  return result;
+};
+
+var f = n => (n > 50 ? false : [-n, n + 10]);
+unfold(f, 10); // [-10, -20, -30, -40, -50]</pre
+  >
 </div>
 ```
 
