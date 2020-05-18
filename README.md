@@ -7,7 +7,7 @@
 
 ## Features:
 
-**🕺 Extremely Lightweight:** `codeblock.css` is only 400 bytes big. Yep, only 400.
+**🕺 Extremely Lightweight:** `codeblock.css` is only 263 bytes big. Yep, only 263.
 
 **🌐 Works Everywhere:** `codeblock.css` uses nothing except pure-CSS that works everywhere on every browser.
 

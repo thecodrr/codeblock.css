@@ -1,7 +1,7 @@
 {
   "name": "codeblock.css",
   "version": "1.0.0",
-  "description": "400 bytes to make pretty code blocks using only CSS. Much like Prettier but without any highlighting.",
+  "description": "263 bytes to make pretty code blocks using only CSS. Much like Prettier but without any highlighting.",
   "main": "codeblock.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
